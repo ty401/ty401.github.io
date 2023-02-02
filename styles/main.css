@@ -6,7 +6,7 @@ body {
 
 a:focus, a:hover {
     font-style: italic;
-    color:yellowgreen
+    color:orangered
 }
 
 header h1 {
