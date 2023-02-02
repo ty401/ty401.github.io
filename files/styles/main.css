@@ -17,7 +17,32 @@ header h1 {
 
 header h2 {
     font-size: 130%;
-    color: yellowgreen;
+    color: rgb(150, 200, 50);
     text-indent: 30px;
 }
 
+header img {
+    float: left;
+}
+
+.shadow{
+    text-shadow: 2px 2p 2px rgb(244, 236, 20);
+}
+
+maain{
+    clear: left;
+}
+
+main h3 {
+    margin-top: 3em;
+    font-size: 105%;
+}
+
+#list{
+    line-height: 1.5em;
+}
+
+footer p.copyright{
+    text-align: center;
+    font-family: 80%;
+}
