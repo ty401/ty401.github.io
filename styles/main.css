@@ -16,7 +16,7 @@ body {
 
 a:focus, a:hover {
     font-style: italic;
-    color:yellow
+    color:#a2ec77
 }
 
 header h1 {
