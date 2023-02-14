@@ -51,6 +51,7 @@ main h3 {
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
+    margin-left: auto;
 }
 main nav {
     margin: 1.5em 2em 1.5em;
@@ -58,6 +59,7 @@ main nav {
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 0.5em;
+    margin-left: auto;
 }
 
 div.contact {
@@ -66,6 +68,7 @@ div.contact {
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px;
     padding: 1em;
+    margin-left: auto;
 }
 #list{
     line-height: 1.5em;
