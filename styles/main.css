@@ -40,7 +40,8 @@ header img {
 }
 
 main {
-    clear: left; margin-left: center;
+    margin-left: 15px;
+    clear: left; 
 }
 
 main h3 {
