@@ -32,7 +32,6 @@ header h2 {
 }
 
 header img {
-    margin-left: center;
     float: left;
 }
 
@@ -41,7 +40,7 @@ header img {
 }
 
 main {
-    clear: left;
+    clear: left; margin-left: 1.5em 2em 1.5em;
 }
 
 main h3 {
