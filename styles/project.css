@@ -33,10 +33,6 @@ header h2 {
     text-indent: 30px;
 }
 
-header h3 {
-    clear: both;
-    border-top: 2px solid maroon;
-}
 
 header img {
     float: left;
@@ -51,7 +47,7 @@ article {
     width: 70%;
     float: left;
     column-count: 2;
-    column-rule: 2px dotted maroon;
+    column-rule: 2px dotted rgb(251, 251, 56);
     column-gap: 2em;
     margin-left: 2em;
 }
@@ -70,7 +66,7 @@ article p::first-letter {
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
-    color: rgb(255, 0, 149);
+    color: rgb(77, 255, 0);
 }
 
 aside {
