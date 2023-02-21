@@ -27,12 +27,17 @@ header h1 {
     text-indent: 30px;
 }
 
+
 header h2 {
     font-size: 130%;
     color: #88f0d1;
     text-indent: 30px;
 }
 
+header h3 { 
+    clear: both;
+    border-bottom: 2px solid rgb(118, 255, 207);
+}
 
 header img {
     float: left;
