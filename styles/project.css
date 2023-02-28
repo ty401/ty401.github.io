@@ -33,7 +33,9 @@ header h2 {
     text-indent: 30px;
 }
 header { 
-    border-bottom: 2px solid #ef9c00; }
+    padding-bottom: 2em;
+    border-bottom: 2px solid #ef9c00; 
+}
 
 header img {
     float: left;
