@@ -59,8 +59,6 @@ article {
 
 article h3{
     column-span: all;
-    clear: both;
-    border-top: 2px solid rgb(3, 50, 34);
 }
 
 
@@ -84,6 +82,8 @@ aside {
     float: right;
     background-color: #a2ec77;
     padding-left: 2em;
+    clear: both;
+    border-bottom: 2px solid rgb(3, 50, 34);
 }
 
 footer {
