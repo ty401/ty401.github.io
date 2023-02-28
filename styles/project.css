@@ -59,6 +59,8 @@ article {
 
 article h3{
     column-span: all;
+    clear: both;
+    border-bottom: 2px solid rgb(3, 50, 34);
 }
 
 
