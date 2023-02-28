@@ -91,7 +91,7 @@ footer p.copyright {
 }
 
 p.fixed {
-    width: auto;
+    width: 50%;
     position: fixed;
     bottom: 35%;
     right: 0%;
