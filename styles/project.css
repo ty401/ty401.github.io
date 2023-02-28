@@ -38,8 +38,6 @@ header h2 {
 header img {
     float: left;
     margin-left: 2em;
-    clear: both;
-    border-bottom: 2px solid rgb(3, 50, 34);
 }
 
 
