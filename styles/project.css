@@ -27,24 +27,20 @@ header h1 {
     text-indent: 30px; 
 }
 
-
 header h2 {
     font-size: 130%;
     color: #88f0d1;
     text-indent: 30px;
 }
 
-
 header img {
     float: left;
     margin-left: 2em;
 }
 
-
 .shadow {
     text-shadow: 2px 2px 2px rgb(243, 224, 53);
 }
-
 
 article {
     clear:left;
@@ -56,11 +52,9 @@ article {
     margin-left: 2em;
 }
 
-
 article h3{
     column-span: all;
 }
-
 
 article img{
     float: left;
@@ -68,14 +62,12 @@ article img{
     margin-bottom: 1em;
 }
 
-
 article p::first-letter {
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
     color: rgb(181, 225, 2);
 }
-
 
 aside {
     width: 20%;
