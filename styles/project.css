@@ -41,11 +41,6 @@ header h3 {
     
 }
 
-header h4 {
-    clear: both;
-    border-bottom: 2px solid rgb(3, 50, 34);
-}
-
 
 header img {
     float: left;
