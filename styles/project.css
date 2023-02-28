@@ -94,6 +94,4 @@ p.fixed {
     border: 3px solid darkgreen;
     background-color: lightgreen;
     padding-left: 2em;
-    clear: both;
-    border-top: 2px solid rgb(3, 50, 34);
 }
