@@ -45,11 +45,12 @@ article {
 
 aside {
     position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 20%;
-    overflow: auto;
+    bottom: 35%;
+    right: 0%;
+    width: auto;
+    border: 3px solid darkorange;
+    background-color: rgb(255, 179, 38);
+    padding: 2em;
 }
 
 aside ol {
