@@ -41,6 +41,7 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
+    background-color: white;
 }
 
 article p::first-letter {
