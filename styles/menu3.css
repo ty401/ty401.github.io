@@ -29,6 +29,13 @@ article {
     clear: both;
 }
 
+article p::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(181, 225, 2);
+}
+
 aside ol {
     list-style-type: upper-roman;
 }
