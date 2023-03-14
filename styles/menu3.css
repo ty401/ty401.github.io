@@ -36,6 +36,13 @@ article p::first-letter {
     color: rgb(181, 225, 2);
 }
 
+aside {
+    width: 20%;
+    float: right;
+    background-color: #a2ec77;
+    padding-left: 2em;
+}
+
 aside ol {
     list-style-type: upper-roman;
 }
