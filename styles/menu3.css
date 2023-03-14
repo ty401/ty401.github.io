@@ -38,7 +38,7 @@ article p::first-letter {
 
 article {
     column-count: 3;
-    column-rule: 2px dotted #1400ef;
+    column-rule: 3px dotted #1400ef;
     column-gap: 2em;
     margin-left: 2em;
 }
