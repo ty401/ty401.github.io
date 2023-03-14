@@ -36,11 +36,18 @@ article p::first-letter {
     color: rgb(181, 225, 2);
 }
 
+article {
+    column-count: 3;
+    column-gap: 35px;
+    column-rule: 2px solid black; 
+}
+
 aside {
     width: 20%;
     float: right;
     background-color: #a2ec77;
     padding-left: 2em;
+    position: fixed;
 }
 
 aside ol {
