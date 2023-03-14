@@ -30,11 +30,6 @@ header {
     border-bottom: 2px solid #ef9c00; 
 }
 
-h2 img {
-    float: left;
-    margin-left: 2em;
-}
-
 article p::first-letter {
     font-size: 3em;
     font-weight: bold;
@@ -47,6 +42,12 @@ article {
     column-rule: 4px dotted #1400ef;
     column-gap: 2em;
     margin-left: 2em;
+}
+
+article img{
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
 
 aside {
