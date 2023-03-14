@@ -48,16 +48,12 @@ header img {
 
 article {
     clear:left;
-    width: 70%;
+    width: 75%;
     float: left;
     column-count: 2;
     column-rule: 2px dotted #1400ef;
     column-gap: 2em;
     margin-left: 2em;
-}
-
-article h3{
-    column-span: all;
 }
 
 article img{
