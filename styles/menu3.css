@@ -35,10 +35,6 @@ h2 img {
     margin-left: 2em;
 }
 
-article {
-    clear: both;
-}
-
 article p::first-letter {
     font-size: 3em;
     font-weight: bold;
