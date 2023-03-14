@@ -30,6 +30,11 @@ header {
     border-bottom: 2px solid #ef9c00; 
 }
 
+body{
+    width: 95%;
+    margin: 15px auto;
+}
+
 article p::first-letter {
     font-size: 3em;
     font-weight: bold;
@@ -46,6 +51,7 @@ article {
 
 article  {
     column-span: all;
+    width: 75%;
 }
 
 article img{
@@ -58,7 +64,7 @@ aside {
     position: fixed;
     bottom: 35%;
     right: 0%;
-    width: auto;
+    width: 20%;
     border: 3px solid rgb(6, 69, 85);
     background-color: rgb(89, 206, 235);
     padding: 2em;
