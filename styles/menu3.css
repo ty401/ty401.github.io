@@ -58,6 +58,14 @@ article  {
     width: 75%;
 }
 
+article h1 {
+    color: rgb(87, 15, 170);
+}
+
+article h2 {
+    color: rgb(87, 15, 170);
+}
+
 article img{
     float: left;
     margin-right: 1em;
