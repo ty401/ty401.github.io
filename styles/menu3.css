@@ -44,11 +44,12 @@ article {
 }
 
 aside {
-    width: 20%;
-    float: right;
-    background-color: #a2ec77;
-    padding-left: 2em;
     position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    overflow: auto;
 }
 
 aside ol {
