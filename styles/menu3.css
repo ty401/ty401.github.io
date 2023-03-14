@@ -38,8 +38,6 @@ article p::first-letter {
 
 article {
     column-count: 3;
-    column-gap: 35px;
-    column-rule: 2px solid black; 
 }
 
 aside {
