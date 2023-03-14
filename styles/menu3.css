@@ -33,6 +33,10 @@ menu {
 body{
     width: 95%;
     margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
 }
 
 article p::first-letter {
