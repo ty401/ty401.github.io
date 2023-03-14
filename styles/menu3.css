@@ -25,6 +25,11 @@
     color: yellow; 
 }
 
+header { 
+    padding-bottom: 2em;
+    border-bottom: 2px solid #ef9c00; 
+}
+
 h2 img {
     float: left;
     margin-left: 2em;
