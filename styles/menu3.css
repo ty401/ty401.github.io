@@ -25,6 +25,11 @@
     color: yellow; 
 }
 
+h2 img {
+    float: left;
+    margin-left: 2em;
+}
+
 article {
     clear: both;
 }
