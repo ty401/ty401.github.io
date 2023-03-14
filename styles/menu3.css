@@ -59,5 +59,18 @@ aside ul {
     list-style-type: square;
 }
 
+footer p.copyright {
+    text-align: center;
+    font-size: 80%;
+}
+p.fixed {
+    width: auto;
+    position: fixed;
+    bottom: 35%;
+    right: 0%;
+    border: 3px solid darkorange;
+    background-color: rgb(255, 179, 38);
+    padding: 2em;
+}
 
 
