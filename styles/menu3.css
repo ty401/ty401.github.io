@@ -53,7 +53,7 @@ article p::first-letter {
 
 article {
     column-count: 3;
-    column-rule: 4px dotted #0daa1d;
+    column-rule: 4px dotted #e5ff23;
     column-gap: 2em;
     margin-right: 2em;
 }
