@@ -35,4 +35,29 @@ html, body {
         border-bottom: 2px solid purple;
     }
     /*-----------------------------------------------------------*/
-    
+    /* Set vertical alignment to top for all table cells */
+table td, table th {
+    vertical-align: top;
+  }
+  
+  /* Apply specific styles to the third table */
+  table.third {
+    /* Set padding for all cells */
+    padding: 10px;
+  
+    /* Apply border styles to first, middle, and last rows */
+    border-collapse: collapse;
+  }
+  
+  table.third thead tr:first-child {
+    border-top: 2px solid orangered;
+  }
+  
+  table.third tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table.third tbody tr:last-child {
+    border-bottom: 2px solid orangered;
+  }
+  
