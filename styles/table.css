@@ -37,6 +37,7 @@ html, body {
     /*-----------------------------------------------------------*/
    table.third {
     vertical-align: top;
+    padding: 10px;
    }
    table.third th {
     background-color: rgb(77, 248, 77);
