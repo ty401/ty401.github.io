@@ -35,6 +35,6 @@ html, body {
         border-bottom: 2px solid purple;
     }
     /*-----------------------------------------------------------*/
-   td {
+   table.third {
     vertical-align: top;
    }
