@@ -44,7 +44,7 @@ html, body {
     background-color: rgb(77, 248, 77);
    }
    table.third thead tr:first-child {
-    border-top: 2px solid orangered; 
+    border-top: 2px solid orangered;
    }
    @media only screen and (max-width: 425px) {
     th, td {
