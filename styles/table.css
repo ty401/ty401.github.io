@@ -55,6 +55,9 @@ html, body {
    table.third tbody tr:last-child {
     border-bottom: 2px solid orangered;
    }
+   selector {
+    padding: 10px 20px;
+  }
    @media only screen and (max-width: 425px) {
     th, td {
         display: block;
