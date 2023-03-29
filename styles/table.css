@@ -38,10 +38,12 @@ html, body {
     table td, table th {
         vertical-align: top;
    }
+   table.third {
+    border-collapse: collapse;
+   }
    table.third th {
     background-color: rgb(77, 248, 77);
     padding: 10px;
-    border-collapse: collapse;
    }
    table.third thead tr:first-child {
     border-top: 2px solid orangered;
