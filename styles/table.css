@@ -50,7 +50,6 @@ html, body {
     border-bottom: 2px solid orangered;
    }
    table.third tbody tr:last-child {
-    border-top: 2px solid orangered;
     border-bottom: 2px solid orangered;
    }
    @media only screen and (max-width: 425px) {
