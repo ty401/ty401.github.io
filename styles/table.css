@@ -35,7 +35,7 @@ html, body {
         border-bottom: 2px solid purple;
     }
     /*-----------------------------------------------------------*/
-    table td, table th {
+    table.third td, table.third th {
         vertical-align: top;
         padding: 2em;
    }
