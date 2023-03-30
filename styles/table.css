@@ -37,7 +37,7 @@ html, body {
     /*-----------------------------------------------------------*/
     table.third td, table.third th {
         vertical-align: top;
-        padding: 1em;
+        padding: 0.7em;
    }
    table.third {
     border-collapse: collapse;
