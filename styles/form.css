@@ -38,24 +38,24 @@ textarea {
     height: 5em;
     width: 35em;
 }
-#comment_fieldset {
+#comments {
     border: 1px solid black;
     font-size: 90%;
     margin-bottom: 1em;
     padding-top: .5em;
 }
-#comment_fieldset legend {
+#comments legend {
     color: #931420;
     font-weight: bold;
     font-size: 85%;
     margin-bottom: .5em;
 }
-#comment_fieldset label {
+#comments label {
     float: none;
     width: auto;
     text-align: left;
 }
-#comment_fieldset textarea {
+#comments textarea {
     height: 5em;
     width: 35em;
     margin-left: 0.5em;
