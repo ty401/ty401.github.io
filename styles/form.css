@@ -33,15 +33,35 @@ input:invalid {
 }
 br {
     clear: both; 
-    color: #931420;
-    font-weight: bold;
-    font-size: 85%;
-    margin-bottom: .5em;
 }
 textarea {
     height: 5em;
     width: 35em;
 }
+#comment_fieldset {
+    border: 1px solid black;
+    font-size: 90%;
+    margin-bottom: 1em;
+    padding-top: .5em;
+}
+#comment_fieldset legend {
+    color: #931420;
+    font-weight: bold;
+    font-size: 85%;
+    margin-bottom: .5em;
+}
+#comment_fieldset label {
+    float: none;
+    width: auto;
+    text-align: left;
+}
+#comment_fieldset textarea {
+    height: 5em;
+    width: 35em;
+    margin-left: 0.5em;
+    margin-bottom: .5em;
+}
+
 #buttons input {
     width: 10em;
 }
