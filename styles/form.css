@@ -33,8 +33,6 @@ input:invalid {
 }
 br {
     clear: both; 
-    color: #931420;
-
 }
 textarea {
     height: 5em;
