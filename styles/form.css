@@ -33,6 +33,10 @@ input:invalid {
 }
 br {
     clear: both; 
+    color: #931420;
+    font-weight: bold;
+    font-size: 85%;
+    margin-bottom: .5em;
 }
 textarea {
     height: 5em;
