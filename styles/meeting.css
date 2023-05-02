@@ -1,132 +1,60 @@
-/* Global Styles */
+/* Global styles */
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
   }
   
-  html {
-    font-size: 16px;
-  }
-  
   body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #333;
-    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    margin: 0;
   }
   
-  a {
-    color: #0066cc;
-    text-decoration: none;
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
   }
   
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-    margin: 10px 0;
-  }
-  
-  p {
-    margin: 10px 0;
-  }
-  
-  /* Header Styles */
-  header {
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999;
-  }
-  
-  .logo {
-    margin: 10px 0;
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0 20px;
-  }
-  
-  nav ul {
-    display: flex;
-    list-style: none;
-  }
-  
-  nav ul li {
-    margin-left: 20px;
-  }
-  
-  nav ul li a {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  /* Main Content Styles */
-  main {
-    margin-top: 100px;
-    padding: 20px;
-  }
-  
-  .container {
-    max-width: 1200px;
+  form {
+    max-width: 600px;
     margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
   
-  .btn {
-    display: inline-block;
-    padding: 10px 20px;
+  label {
     font-size: 18px;
     font-weight: bold;
-    text-transform: uppercase;
-    border-radius: 5px;
-    background-color: #0066cc;
-    color: #fff;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
-    background-color: #0052a3;
-  }
-  
-  form label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
   
-  form input[type="text"],
-  form input[type="date"],
-  form input[type="time"] {
+  input[type="text"],
+  input[type="date"],
+  input[type="time"] {
+    font-size: 16px;
     padding: 10px;
-    border-radius: 5px;
-    border: none;
-    background-color: #f5f5f5;
-    margin-bottom: 20px;
     width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
   }
   
-  form input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #0066cc;
+  input[type="submit"] {
+    background-color: #0072c6;
     color: #fff;
-    border-radius: 5px;
-    border: none;
     font-size: 18px;
     font-weight: bold;
-    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
-  form input[type="submit"]:hover {
-    background-color: #0052a3;
+  input[type="submit"]:hover {
+    background-color: #00509d;
   }
+  
