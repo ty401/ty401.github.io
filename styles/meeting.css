@@ -45,6 +45,7 @@
   
   input[type="submit"] {
     background-color: #0072c6;
+    width: 100%;
     color: #fff;
     font-size: 18px;
     font-weight: bold;
