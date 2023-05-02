@@ -52,6 +52,7 @@ body {
   
   input[type="submit"] {
     background-color: #4CAF50;
+    width: 100%;
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -63,6 +64,7 @@ body {
   
   input[type="submit"]:hover {
     background-color: #3e8e41;
+    
   }
   
   input[type="submit"]:active {
