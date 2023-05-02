@@ -1,78 +1,80 @@
-/* award.css */
-
-/* Global styles */
-
 body {
-    background-color: #F5F5F5;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h1 {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
     text-align: center;
-    color: #333333;
-    font-size: 36px;
-    font-weight: 600;
-    margin-top: 50px;
-}
-
-form {
-    width: 80%;
+    margin-top: 30px;
+  }
+  
+  form {
+    max-width: 500px;
     margin: 0 auto;
-}
-
-label {
-    font-size: 20px;
-    color: #333333;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
     display: block;
-    margin-top: 20px;
-}
-
-input[type="text"],
-input[type="date"],
-input[type="email"],
-textarea,
-select {
-    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  textarea {
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
-    border: none;
-    background-color: #F0F0F0;
-    color: #333333;
-}
-
-input[type="submit"] {
+    border: 1px solid #ccc;
     width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 150px;
+  }
+  
+  select {
     padding: 10px;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
     border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
     border: none;
-    background-color: #00ADEF;
-    color: #FFFFFF;
+    border-radius: 5px;
     cursor: pointer;
-    margin-top: 30px;
-    transition: background-color 0.3s ease-in-out;
-}
-
-input[type="submit"]:hover {
-    background-color: #FCA311;
-}
-
-/* Media queries */
-
-@media screen and (max-width: 767px) {
-
-    form {
-        width: 90%;
-    }
-
-    label {
-        font-size: 18px;
-    }
-
-    input[type="submit"] {
-        font-size: 16px;
-    }
-
-}
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  input[type="submit"]:active {
+    background-color: #2980b9;
+  }
+  
+  .error {
+    color: #f00;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
